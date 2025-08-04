@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CS:GO/CS2 Skin Marketplace
 
-## Getting Started
+A modern, server-side rendered marketplace for CS:GO and CS2 weapon skins built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## 🎮 Features
+
+- **Modern UI**: CS.MONEY-inspired design with rarity-based color coding
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **TypeScript**: Full type safety throughout the application
+- **Server-Side Rendering**: SEO-optimized with Next.js App Router
+- **Component Architecture**: Modular, reusable components
+- **Mock Data**: Complete marketplace data structure for development
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -14,11 +25,48 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the marketplace.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom CS:GO theme
+- **Icons**: Lucide React
+- **State Management**: Zustand
+- **Data Fetching**: SWR
+- **Components**: Custom UI components with class-variance-authority
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   ├── items/             # Item routes
+│   └── globals.css        # Global styles
+├── components/            # Reusable components
+│   ├── ui/               # Base UI components
+│   ├── layout/           # Layout components
+│   ├── items/            # Item-specific components
+│   └── common/           # Common components
+├── lib/                  # Utilities and configurations
+├── types/                # TypeScript type definitions
+└── data/                 # Static data and mock APIs
+```
+
+## 🎨 Features Implemented
+
+- ✅ Responsive marketplace layout
+- ✅ Weapon skin cards with rarity colors
+- ✅ Navigation and search functionality
+- ✅ TypeScript type definitions
+- ✅ Mock data for development
+- ✅ CS:GO-themed UI components
+- ✅ Server-side rendering
 
 ## Learn More
 
