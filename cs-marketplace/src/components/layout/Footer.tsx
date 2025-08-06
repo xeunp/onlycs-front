@@ -9,10 +9,10 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-onlycs-blue rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-sm">OC</span>
+              <div className="w-8 h-8 bg-cs-blue rounded-md flex items-center justify-center">
+                <span className="text-white font-bold text-sm">CS</span>
               </div>
-              <span className="font-bold text-xl">Onlycs</span>
+              <span className="font-bold text-xl">Marketplace</span>
             </div>
             <p className="text-sm text-muted-foreground">
               The premier destination for CS:GO and CS2 skin trading. 

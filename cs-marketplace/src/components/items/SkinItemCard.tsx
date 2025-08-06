@@ -18,7 +18,7 @@ export function SkinItemCard({ item }: SkinItemCardProps) {
   const qualityVariant = getQualityBadgeVariant(item.quality);
 
   return (
-    <Card className="group overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-onlycs-blue/20 hover:-translate-y-1">
+    <Card className="group overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-cs-blue/20 hover:-translate-y-1">
       <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800">
         <Image
           src={item.images.preview}
@@ -82,7 +82,7 @@ export function SkinItemCard({ item }: SkinItemCardProps) {
           </div>
           
           <div className="flex items-center justify-between">
-            <div className="text-lg font-bold text-onlycs-blue">
+            <div className="text-lg font-bold text-cs-blue">
               {formatPrice(item.price.current, item.price.currency)}
             </div>
             {item.price.low && item.price.high && (

@@ -12,18 +12,18 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-hero-gradient-start to-hero-gradient-end py-20 md:py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-cs-dark via-gray-900 to-cs-dark py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/cs-bg-pattern.png')] opacity-10"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="outline" className="mb-6 bg-onlycs-blue/10 text-onlycs-blue border-onlycs-blue/20">
-            Onlycs - Made by gamers, for gamers &lt;3
+              ✨ Onlycs - Premium CS:GO & CS2 Marketplace
             </Badge>
             
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 text-right">
-              تداول البريميوم
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+              Trade Premium
               <span className="text-onlycs-blue bg-gradient-to-r from-onlycs-blue to-blue-400 bg-clip-text text-transparent">
-                {" "}Onlycs
+                {" "}Onlycs Skins
               </span>
             </h1>
             
@@ -54,8 +54,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-onlycs-blue/10 rounded-full flex items-center justify-center mx-auto">
-                <Shield className="w-8 h-8 text-onlycs-blue" />
+              <div className="w-16 h-16 bg-cs-blue/10 rounded-full flex items-center justify-center mx-auto">
+                <Shield className="w-8 h-8 text-cs-blue" />
               </div>
               <h3 className="text-xl font-semibold">Secure Trading</h3>
               <p className="text-muted-foreground">
@@ -64,8 +64,8 @@ export default function HomePage() {
             </div>
             
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-onlycs-blue/10 rounded-full flex items-center justify-center mx-auto">
-                <TrendingUp className="w-8 h-8 text-onlycs-blue" />
+              <div className="w-16 h-16 bg-cs-blue/10 rounded-full flex items-center justify-center mx-auto">
+                <TrendingUp className="w-8 h-8 text-cs-blue" />
               </div>
               <h3 className="text-xl font-semibold">Real-time Prices</h3>
               <p className="text-muted-foreground">
@@ -74,8 +74,8 @@ export default function HomePage() {
             </div>
             
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-onlycs-blue/10 rounded-full flex items-center justify-center mx-auto">
-                <Zap className="w-8 h-8 text-onlycs-blue" />
+              <div className="w-16 h-16 bg-cs-blue/10 rounded-full flex items-center justify-center mx-auto">
+                <Zap className="w-8 h-8 text-cs-blue" />
               </div>
               <h3 className="text-xl font-semibold">Instant Delivery</h3>
               <p className="text-muted-foreground">
@@ -100,12 +100,12 @@ export default function HomePage() {
             {weaponCategories.map((category) => (
               <Link key={category.id} href={`/items?category=${category.slug}`}>
                 <div className="group p-6 bg-card border rounded-lg hover:shadow-lg transition-all duration-300 hover:-translate-y-1 text-center">
-                  <div className="w-12 h-12 bg-onlycs-blue/10 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-onlycs-blue/20 transition-colors">
-                    <span className="text-onlycs-blue font-bold text-sm">
+                  <div className="w-12 h-12 bg-cs-blue/10 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-cs-blue/20 transition-colors">
+                    <span className="text-cs-blue font-bold text-sm">
                       {category.name.charAt(0)}
                     </span>
                   </div>
-                  <h3 className="font-semibold text-sm group-hover:text-onlycs-blue transition-colors">
+                  <h3 className="font-semibold text-sm group-hover:text-cs-blue transition-colors">
                     {category.name}
                   </h3>
                 </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-onlycs-blue to-blue-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-cs-blue to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Trading?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

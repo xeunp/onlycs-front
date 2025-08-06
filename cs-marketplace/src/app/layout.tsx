@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Onlycs - Premium CS:GO & CS2 Skins",
+  title: "CS Marketplace - Premium CS:GO & CS2 Skins",
   description: "Discover the best CS:GO and CS2 weapon skins, knives, and gloves. Trade, buy, and sell with confidence on the premier Counter-Strike marketplace.",
-  keywords: "Onlycs, CS:GO, CS2, Counter-Strike, skins, weapons, knives, gloves, marketplace, trading",
+  keywords: "CS:GO, CS2, Counter-Strike, skins, weapons, knives, gloves, marketplace, trading",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >

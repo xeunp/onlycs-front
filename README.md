@@ -1,10 +1,10 @@
-# CS:GO/CS2 Skin Marketplace
+# Onlycs - CS:GO/CS2 Skin Marketplace
 
 A modern, server-side rendered marketplace for CS:GO and CS2 weapon skins built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## 🎮 Features
 
-- **Modern UI**: CS.MONEY-inspired design with rarity-based color coding
+- **Modern UI**: Onlycs premium design with rarity-based color coding
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **TypeScript**: Full type safety throughout the application
 - **Server-Side Rendering**: SEO-optimized with Next.js App Router

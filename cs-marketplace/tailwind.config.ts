@@ -6,29 +6,10 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  future: {
-    hoverOnlyWhenSupported: true,
-  },
   theme: {
     extend: {
       colors: {
-        // Custom Blue Slate Gradient Colors
-        'hero-gradient-start': '#B5B9FF',
-        'hero-gradient-end': '#2B2C49',
-        
-        // Case Hardened Navbar Gradient Colors (Cyan-dominant)
-        'navbar-gradient-start': '#0891b2', // Cyan-600
-        'navbar-gradient-middle': '#00bcd4', // Bright cyan
-        'navbar-gradient-end': '#164e63', // Cyan-900
-        
-        // Case Hardened accent colors
-        'case-hardened-cyan': '#06b6d4',
-        'case-hardened-blue': '#0284c7',
-        'case-hardened-teal': '#0d9488',
-        'case-hardened-dark': '#164e63',
-        
-        // Onlycs brand colors
-        'onlycs-blue': '#5e98d9',
+        // CS.MONEY brand colors
         primary: {
           50: '#f0f4ff',
           100: '#e1eaff',
@@ -93,9 +74,6 @@ const config: Config = {
       boxShadow: {
         'glow': '0 0 20px rgba(94, 152, 217, 0.3)',
         'glow-lg': '0 0 30px rgba(94, 152, 217, 0.5)',
-        'onlycs-glow': '0 0 20px rgba(94, 152, 217, 0.3)',
-        'case-hardened-glow': '0 0 25px rgba(6, 182, 212, 0.4)',
-        'case-hardened-inner': 'inset 0 1px 0 rgba(255, 255, 255, 0.1)',
       },
     },
   },
