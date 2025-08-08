@@ -17,9 +17,9 @@ const config: Config = {
         'hero-gradient-end': '#2B2C49',
         
         // Case Hardened Navbar Gradient Colors (Cyan-dominant)
-        'navbar-gradient-start': '#0891b2', // Cyan-600
-        'navbar-gradient-middle': '#00bcd4', // Bright cyan
-        'navbar-gradient-end': '#164e63', // Cyan-900
+        'navbar-gradient-start': '#000000', // Black
+        'navbar-gradient-middle': '#0000FF', // Blue
+        'navbar-gradient-end': '#1E1E1E', // Dark Gray
         
         // Case Hardened accent colors
         'case-hardened-cyan': '#06b6d4',

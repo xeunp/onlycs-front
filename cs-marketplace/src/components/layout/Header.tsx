@@ -78,17 +78,6 @@ export function Header() {
             </Button>
           </div>
         </div>
-
-        {/* Mobile Search */}
-        <div className="lg:hidden pb-4">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
-            <Input
-              placeholder="Search for skins..."
-              className="pl-10"
-            />
-          </div>
-        </div>
       </div>
     </header>
   );

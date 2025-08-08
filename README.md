@@ -10,6 +10,9 @@ A modern, server-side rendered marketplace for CS:GO and CS2 weapon skins built 
 - **Server-Side Rendering**: SEO-optimized with Next.js App Router
 - **Component Architecture**: Modular, reusable components
 - **Mock Data**: Complete marketplace data structure for development
+- **Steam Integration**: Steam login with official Steam logo
+- **Custom Theming**: Black fade navbar with glass effect styling
+- **Background Support**: Custom background image integration
 
 ## 🚀 Getting Started
 
@@ -67,6 +70,10 @@ src/
 - ✅ Mock data for development
 - ✅ CS:GO-themed UI components
 - ✅ Server-side rendering
+- ✅ Black fade navbar with Steam login integration
+- ✅ Custom background image support
+- ✅ Glass effect styling utilities
+- ✅ RTL/LTR layout support
 
 ## Learn More
 
