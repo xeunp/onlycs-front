@@ -1,5 +1,0 @@
-#color palatte 
-    lets work on the color palatte one by one and tell me all the possible objects and all the places where i can give you the hex of an color based on the read me
-    first lets work on landing and home page
-    where i can give you colors give me the name and a number like 1.text on the items and i will give you the colors one by one and you insert them into the project
-#
