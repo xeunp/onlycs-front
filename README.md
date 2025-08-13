@@ -1,91 +1,195 @@
-# Onlycs - CS:GO/CS2 Skin Marketplace
+# 🎮 Onlycs - Premium CS:GO & CS2 Skin Marketplace
 
-A modern, server-side rendered marketplace for CS:GO and CS2 weapon skins built with Next.js 15, TypeScript, and Tailwind CSS.
+A modern, premium marketplace for CS:GO and CS2 weapon skins built with cutting-edge web technologies. Features a sleek dark theme, animated UI components, and seamless Telegram support integration.
 
-## 🎮 Features
+![Onlycs Marketplace](https://img.shields.io/badge/Status-Active-brightgreen) ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-cyan)
 
-- **Modern UI**: Onlycs premium design with rarity-based color coding
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **TypeScript**: Full type safety throughout the application
-- **Server-Side Rendering**: SEO-optimized with Next.js App Router
-- **Component Architecture**: Modular, reusable components
-- **Mock Data**: Complete marketplace data structure for development
-- **Steam Integration**: Steam login with official Steam logo
-- **Custom Theming**: Black fade navbar with glass effect styling
-- **Background Support**: Custom background image integration
+## ✨ Features
 
-## 🚀 Getting Started
+### 🎨 **Modern Design**
+- **Premium Dark Theme**: Professional `#06070b` background with gradient accents
+- **Animated UI**: Heartbeat search animations, hover effects, and smooth transitions
+- **Glass Morphism**: Backdrop blur effects and translucent components
+- **Responsive Layout**: Mobile-first design with perfect scaling across devices
 
-First, run the development server:
+### 🔧 **Technical Excellence**
+- **Next.js 15**: Latest App Router with Server Components
+- **TypeScript**: Full type safety and IntelliSense support
+- **Tailwind CSS**: Utility-first styling with custom animations
+- **Component Architecture**: Modular, reusable, and maintainable code
+
+### 🎯 **User Experience**
+- **Category Cards**: Animated weapon category browsing (AWP, Knives, Rifles, etc.)
+- **Smart Search**: Centered search bar with heartbeat animation effects
+- **Authentication**: Integrated login status component with Steam support
+- **Navigation**: Fixed header with About Us and user authentication
+
+### 📱 **Communication**
+- **Telegram Integration**: Primary support channel with animated CTAs
+- **Instant Support**: Direct contact via `@onlycsirSupport`
+- **Modern Contact Page**: Engaging About Us page focused on Telegram support
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/xeunp/onlycs-front.git
+cd onlycs-front
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the marketplace.
-
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view the marketplace.
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 15 with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS with custom CS:GO theme
-- **Icons**: Lucide React
-- **State Management**: Zustand
-- **Data Fetching**: SWR
-- **Components**: Custom UI components with class-variance-authority
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| **Next.js** | React Framework | 15.x |
+| **TypeScript** | Type Safety | 5.x |
+| **Tailwind CSS** | Styling | 3.4.x |
+| **Lucide React** | Icons | Latest |
+| **ESLint** | Code Quality | Latest |
 
-## 📁 Project Structure
+## 📁 Project Architecture
 
 ```
 src/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   ├── items/             # Item routes
-│   └── globals.css        # Global styles
-├── components/            # Reusable components
-│   ├── ui/               # Base UI components
+├── app/                    # Next.js 15 App Router
+│   ├── layout.tsx         # Root layout with header integration
+│   ├── page.tsx           # Homepage with category cards
+│   ├── about/             # About Us page with Telegram focus
+│   │   └── page.tsx       # Telegram-focused support page
+│   └── globals.css        # Global styles & animations
+├── components/            # Reusable React components
+│   ├── ui/               # Base UI components (buttons, cards, etc.)
 │   ├── layout/           # Layout components
-│   ├── items/            # Item-specific components
-│   └── common/           # Common components
-├── lib/                  # Utilities and configurations
+│   │   └── Header.tsx    # Navigation with search & auth
+│   ├── auth/             # Authentication components
+│   │   └── LoginStatus.tsx # Login/profile status component
+│   └── items/            # Marketplace item components
+├── lib/                  # Utility functions and configs
 ├── types/                # TypeScript type definitions
-└── data/                 # Static data and mock APIs
+└── data/                 # Mock data and static content
 ```
 
-## 🎨 Features Implemented
+## 🎨 Design System
 
-- ✅ Responsive marketplace layout
-- ✅ Weapon skin cards with rarity colors
-- ✅ Navigation and search functionality
-- ✅ TypeScript type definitions
-- ✅ Mock data for development
-- ✅ CS:GO-themed UI components
-- ✅ Server-side rendering
-- ✅ Black fade navbar with Steam login integration
-- ✅ Custom background image support
-- ✅ Glass effect styling utilities
-- ✅ RTL/LTR layout support
+### Color Palette
+- **Primary Background**: `#06070b` (Deep Dark)
+- **Card Gradients**: Blue, Purple, Red, Green, Yellow, Pink variants
+- **Text Colors**: White with opacity variations (80%, 70%, 60%)
+- **Accent Colors**: Blue/Cyan for Telegram branding
 
-## Learn More
+### Animations
+- **Heartbeat**: Search bar pulsing effect
+- **Hover Transforms**: Scale and rotation effects
+- **Gradient Shifts**: Dynamic background transitions
+- **Particle Effects**: Floating elements on About page
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Key Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🏠 **Homepage** (`/`)
+- Hero section with site introduction
+- Animated category cards (AWP, Knives, Rifles, Accessories)
+- Responsive grid layout with hover effects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ℹ️ **About Us** (`/about`)
+- Telegram-focused support page
+- Animated call-to-action sections
+- Modern contact information with `@onlycsirSupport`
 
-## Deploy on Vercel
+### 🔍 **Navigation**
+- Centered search bar with heartbeat animation
+- About Us link and authentication status
+- Responsive mobile-friendly design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📞 Support & Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Primary Support Channel
+**Telegram**: [@onlycsirSupport](https://t.me/onlycsirSupport)
+
+- ⚡ Lightning fast responses
+- 🎮 Expert CS:GO & CS2 knowledge  
+- 🔒 Secure and private conversations
+
+## 🚦 Development Status
+
+### ✅ Completed Features
+- [x] Responsive marketplace layout
+- [x] Animated category browsing
+- [x] Modern search functionality
+- [x] Authentication UI components
+- [x] Telegram integration & support page
+- [x] TypeScript implementation
+- [x] Mobile-responsive design
+- [x] Custom animations & effects
+
+### 🔄 In Progress
+- [ ] Backend API integration
+- [ ] Real authentication system
+- [ ] Steam API connection
+- [ ] Item management system
+
+## 📄 Scripts
+
+```bash
+# Development
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint checks
+```
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+```bash
+# Deploy to Vercel
+vercel --prod
+```
+
+### Manual Deployment
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm run start
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is proprietary software. All rights reserved.
+
+## 🔗 Links
+
+- **Live Demo**: [Coming Soon]
+- **GitHub**: [https://github.com/xeunp/onlycs-front](https://github.com/xeunp/onlycs-front)
+- **Support**: [@onlycsirSupport](https://t.me/onlycsirSupport)
+
+---
+
+Built with ❤️ for the CS:GO & CS2 community

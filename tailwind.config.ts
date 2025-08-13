@@ -97,6 +97,9 @@ const config: Config = {
         'case-hardened-glow': '0 0 25px rgba(6, 182, 212, 0.4)',
         'case-hardened-inner': 'inset 0 1px 0 rgba(255, 255, 255, 0.1)',
       },
+      backgroundImage: {
+        'moonwalker-gradient': 'radial-gradient(circle, #000000 0%, #152331 100%)',
+      },
     },
   },
   plugins: [],
