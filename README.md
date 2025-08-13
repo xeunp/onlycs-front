@@ -28,6 +28,17 @@ A modern, premium marketplace for CS:GO and CS2 weapon skins built with cutting-
 - **Telegram Integration**: Primary support channel with animated CTAs
 - **Instant Support**: Direct contact via `@onlycsirSupport`
 - **Modern Contact Page**: Engaging About Us page focused on Telegram support
+- **Persian/Farsi Support**: RTL layout with native Persian translation
+- **Multilingual**: Full Persian localization for Persian-speaking users
+
+## 🌐 Internationalization
+
+### 🇮🇷 **Persian (Farsi) Support**
+- **RTL Layout**: Complete right-to-left layout support
+- **Persian Typography**: Beautiful Vazirmatn Google Font integration
+- **Native Translation**: Culturally appropriate Persian content
+- **Gaming Terminology**: CS:GO/CS2 terms translated for Persian gamers
+- **Telegram Focus**: Persian CTAs encouraging Telegram support contact
 
 ## 🚀 Quick Start
 
@@ -64,6 +75,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the marketplace.
 | **Tailwind CSS** | Styling | 3.4.x |
 | **Lucide React** | Icons | Latest |
 | **ESLint** | Code Quality | Latest |
+| **Google Fonts** | Typography | Vazirmatn, Inter |
+| **CSS Animations** | Custom Keyframes | CSS3 |
 
 ## 📁 Project Architecture
 
@@ -112,6 +125,9 @@ src/
 - Telegram-focused support page
 - Animated call-to-action sections
 - Modern contact information with `@onlycsirSupport`
+- **Persian (RTL) Layout**: Complete Persian translation with right-to-left design
+- **Gaming-focused Content**: Persian text tailored for CS:GO/CS2 community
+- **Cultural Localization**: Appropriate Persian phrases and gaming terminology
 
 ### 🔍 **Navigation**
 - Centered search bar with heartbeat animation
@@ -126,6 +142,13 @@ src/
 - ⚡ Lightning fast responses
 - 🎮 Expert CS:GO & CS2 knowledge  
 - 🔒 Secure and private conversations
+- 🇮🇷 Persian/Farsi support available
+- 🌍 24/7 multilingual assistance
+
+### Languages Supported
+- **English**: Full marketplace interface
+- **Persian (فارسی)**: Complete RTL About Us page with native translations
+- **Gaming Terminology**: CS:GO/CS2 terms in both languages
 
 ## 🚦 Development Status
 
@@ -138,6 +161,10 @@ src/
 - [x] TypeScript implementation
 - [x] Mobile-responsive design
 - [x] Custom animations & effects
+- [x] Persian (Farsi) RTL support
+- [x] Google Fonts integration (Vazirmatn, Inter)
+- [x] Multilingual About Us page
+- [x] Cultural localization for Persian users
 
 ### 🔄 In Progress
 - [ ] Backend API integration
