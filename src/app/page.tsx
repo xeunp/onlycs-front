@@ -1,3 +1,5 @@
+import { RarityCard } from "@/components/items/RarityCard";
+
 export default function HomePage() {
   return (
     <div 
@@ -96,6 +98,28 @@ export default function HomePage() {
             </div>
 
           </div>
+        </div>
+      </div>
+
+      {/* Rarity Cards Demo Section */}
+      <div className="max-w-7xl mx-auto px-4 pb-16">
+        <h2 className="text-3xl font-bold text-center text-white mb-8">Featured Rarity Skins</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
+          <RarityCard
+            name="★ Sport Gloves | Scarlet Shamagh"
+            imageUrl="https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Tk5UvzWCL2kpn2-DFk_OKherB0H_icG2mU0vp5v_VhcDu2kSIqtjmMj4K3eC7EOg8oXJR4QbFb4RTpmtexM7jr4VHW3YoXxSv82y1K6n1p4uYAWb1lpPODO32smQ/360fx360f"
+            rarity="Legendary"
+          />
+          <RarityCard
+            name="AK-47 | Redline"
+            imageUrl="https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0POlPPNSI_-RHGavzOtyufRkASq2lkxx4W-HnNyqJC3FZwYoC5p0Q7FfthW6wdWxPu-371Pdit5HnyXgznQeHYY5wyA/360fx360f"
+            rarity="Rare"
+          />
+          <RarityCard
+            name="P250 | Sand Dune"
+            imageUrl="https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwjFU0OGvZqBSLfWXB3Kdj78n4rY-SX-wxhty4WzUwoqud32RPFUnDMR5RuRb4UXrmtznMOLrtgLAy9USoBHo4ag/360fx360f"
+            rarity="Common"
+          />
         </div>
       </div>
     </div>
