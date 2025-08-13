@@ -21,8 +21,9 @@ A modern, premium marketplace for CS:GO and CS2 weapon skins built with cutting-
 ### 🎯 **User Experience**
 - **Category Cards**: Animated weapon category browsing (AWP, Knives, Rifles, etc.)
 - **Smart Search**: Centered search bar with heartbeat animation effects
-- **Authentication**: Integrated login status component with Steam support
+- **Authentication**: Integrated login status component with Steam support (styled to match UI)
 - **Navigation**: Fixed header with About Us and user authentication
+- **Persian Welcome**: Main title displays "به Onlycs خوش آمدید" with RTL support
 
 ### 📱 **Communication**
 - **Telegram Integration**: Primary support channel with animated CTAs
@@ -39,6 +40,7 @@ A modern, premium marketplace for CS:GO and CS2 weapon skins built with cutting-
 - **Native Translation**: Culturally appropriate Persian content
 - **Gaming Terminology**: CS:GO/CS2 terms translated for Persian gamers
 - **Telegram Focus**: Persian CTAs encouraging Telegram support contact
+- **Main Title**: Hero section displays "به Onlycs خوش آمدید" (Welcome to Onlycs)
 
 ## 🚀 Quick Start
 

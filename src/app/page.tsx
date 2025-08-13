@@ -11,8 +11,8 @@ export default function HomePage() {
         className="text-center p-8 flex flex-col justify-center items-center"
         style={{ minHeight: '70vh' }}
       >
-        <h1 className="text-6xl md:text-8xl font-bold text-white mb-6">
-          Welcome to Onlycs
+        <h1 className="text-6xl md:text-8xl font-bold text-white mb-6" dir="rtl" lang="fa">
+          به <span style={{fontFamily: 'inherit'}}>Onlycs</span> خوش آمدید
         </h1>
         <p className="text-xl md:text-2xl text-white/80 mb-8">
           Premium CS:GO & CS2 Skins Marketplace

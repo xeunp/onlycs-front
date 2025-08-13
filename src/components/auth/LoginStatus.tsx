@@ -80,7 +80,8 @@ export function LoginStatus({
   return (
     <button
       onClick={onLogin}
-      className={`flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 active:from-blue-700 active:to-blue-800 text-white rounded-lg font-medium text-sm shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all duration-200 transform hover:scale-105 active:scale-95 ${className}`}
+      className={`flex items-center gap-2 px-4 py-2 rounded-[15px] font-medium text-sm text-white backdrop-blur-sm border border-white/20 hover:border-white/40 hover:bg-white/10 transition-all duration-300 ${className}`}
+      style={{ backgroundColor: '#06070b' }}
       aria-label="Login with Steam account"
     >
       {/* Steam Logo */}
@@ -100,25 +101,3 @@ export function LoginStatus({
     </button>
   );
 }
-
-/**
- * Usage Example:
- * 
- * // In your auth context or component
- * const { user, isAuthenticated, login, logout } = useAuth();
- * 
- * <LoginStatus
- *   isAuthenticated={isAuthenticated}
- *   avatarUrl={user?.avatar}
- *   userName={user?.displayName}
- *   onLogin={() => {
- *     // Redirect to Steam OAuth or call your login function
- *     window.location.href = '/api/auth/steam';
- *   }}
- *   onProfileClick={() => {
- *     // Open profile dropdown or navigate
- *     router.push('/profile');
- *     // Or toggle dropdown state
- *   }}
- * />
- */
